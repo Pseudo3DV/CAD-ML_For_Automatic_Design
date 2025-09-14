@@ -17,3 +17,13 @@
 ## 2. SketchGraphs
 
 - [SketchGraphs Tutorial](sketchgraphs_tutorial.ipynb)을 확인하여 실습을 진행합니다.
+
+
+## Paper
+
+다음 논문을 참고하여 SketchGraphs라는 데이터셋에서 어떤 데이터가 활용되었는지 확인해봅시다!
+
+- [VITRUVION: A GENERATIVE MODEL OF
+PARAMETRIC CAD SKETCHES](https://arxiv.org/pdf/2109.14124)
+- [DAVINCI: A Single-Stage Architecture for Constrained CAD Sketch Inference
+](https://arxiv.org/abs/2410.22857)
