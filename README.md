@@ -44,22 +44,22 @@
 | :--- | :--- | :--- | :--- | :--- |
 | DeepSDF: Learning Continuous Signed Distance Functions for Shape Representation | CVPR 2019 | [Link](https://arxiv.org/abs/1901.05103) | 3583 | [Link](https://github.com/facebookresearch/DeepSDF) |
 | Occupancy networks: Learning 3d reconstruction in function space | CVPR 2019 | [Link](https://arxiv.org/abs/1812.03828) | 2655 | [Link](https://github.com/autonomousvision/occupancy_networks) |
-| A-SDF: Learning Disentangled Signed Distance Functions for Articulated Shape Representation | ICCV 2021 | [Link](https://arxiv.org/abs/2104.01975) | 260 | [Link](https://github.com/Jittor/JNeRF) |
+| A-SDF: Learning Disentangled Signed Distance Functions for Articulated Shape Representation | ICCV 2021 | [Link](https://arxiv.org/abs/2104.07645) | 260 | [Link](https://jitengmu.github.io/A-SDF/) |
 
 #### 1.2. 위상 및 경계 표현 학습 (Topological & Boundary Representation Learning)
 CAD 모델의 고유한 B-rep(경계 표현) 구조(면, 모서리, 정점 간의 관계)를 직접 학습하여 위상적 정보를 보존합니다.
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| BrepNet: A topological message passing system for solid models | CVPR 2021 | [Link](https://arxiv.org/abs/2104.03974) | 185 | [Link](https://github.com/Autodesk/brepnet) |
-| UV-Net: Learning Unoriented Voxel-wise Normal for 3D Shape Analysis | NeurIPS 2021 | [Link](https://arxiv.org/abs/2105.07411) | 165 | [Link](https://github.com/val-iisc/uv-net) |
+| BrepNet: A topological message passing system for solid models | CVPR 2021 | [Link](https://arxiv.org/pdf/2104.00706) | 185 | [Link](https://github.com/AutodeskAILab/BRepNet) |
+| UV-Net: Learning Unoriented Voxel-wise Normal for 3D Shape Analysis | NeurIPS 2021 | [Link](https://arxiv.org/abs/2006.10211) | 165 | [Link](https://github.com/AutodeskAILab/UV-Net) |
 
 #### 1.3. 절차적 시퀀스 표현 학습 (Procedural Sequence Representation Learning)
 CAD 모델이 생성되는 '과정' 또는 '순서'를 학습하여, 설계 의도와 이력을 표현합니다.
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| Inferring CAD Modeling Sequences Using Zone Graphs | SIGGRAPH 2021 | [Link](https://arxiv.org/pdf/2104.03900) | 133 | [Link](https://github.com/ChrisWu1997/Zone-Graphs) |
+| Inferring CAD Modeling Sequences Using Zone Graphs | SIGGRAPH 2021 | [Link](https://arxiv.org/abs/2104.03900) | 133 | [Link](https://github.com/brownvc/zone-graphs) |
 
 ---
 
@@ -70,24 +70,22 @@ CAD 모델이 생성되는 '과정' 또는 '순서'를 학습하여, 설계 의�
 #### 2.1. 이미지 기반 재구성 (From Images)
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| CSG-Net: Neural Shape Parser for Constructive Solid Geometry | CVPR 2018 | [Link](https://arxiv.org/abs/1712.08292) | 275 | [Link](https://github.com/Hippogriff/CSGNet-pytorch) |
-| Img2CAD | ECCV 2024 | [Link](https://arxiv.org/pdf/2408.01437) | 6 | [Link](https://img2cad.github.io/) |
+| CSG-Net: Neural Shape Parser for Constructive Solid Geometry | CVPR 2018 | [Link](https://arxiv.org/abs/1712.08290) | 275 | [Link](https://github.com/Hippogriff/CSGNet) |
+| Img2CAD | ECCV 2024 | [Link](https://arxiv.org/abs/2410.03417) | 6 | [Link](https://github.com/qq456cvb/Img2CAD) |
 
 #### 2.2. 포인트 클라우드 기반 재구성 (From Point Clouds)
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
 | PointNet: Deep Learning on Point Sets for 3D Classification and Segmentation | CVPR 2017 | [Link](https://arxiv.org/abs/1612.00593) | 20042 | [Link](https://github.com/charlesq34/pointnet) |
 | PointNet++: Deep Hierarchical Feature Learning on Point Sets in a Metric Space | NeurIPS 2017 | [Link](https://arxiv.org/abs/1706.02413) | 12920 | [Link](https://github.com/charlesq34/pointnet2) |
-| PIE-Net: Parametric Inference of B-spline Curves and Surfaces | CVPR 2020 | [Link](https://arxiv.org/abs/2003.11128) | 134 | [Link](https://github.com/czq142857/PIE-Net) |
-| ParSeNet: A Parametric Surface Fitting Network for B-Rep Solid Model Reconstruction | ACM Transactions on Graphics 2021 | [Link](https://dl.acm.org/doi/10.1145/3476118) | 114 | [Link](https://github.com/HTDerekLiu/ParSeNet) |
-| Deep B-spline Net: A Continuous Representation for Point Cloud Reconstruction | IJCV 2022 | [Link](https://link.springer.com/article/10.1007/s11263-022-01648-5) | 49 | N/A |
+| PIE-Net: Parametric Inference of B-spline Curves and Surfaces | CVPR 2020 | [Link](https://arxiv.org/abs/2007.04883) | 134 | [Link](https://github.com/wangxiaogang866/PIE-NET) |
+| ParSeNet: A Parametric Surface Fitting Network for B-Rep Solid Model Reconstruction | ACM Transactions on Graphics 2021 | [Link](https://arxiv.org/pdf/2003.12181) | 114 | [Link](https://hippogriff.github.io/parsenet/) |
 
 #### 2.3. 도면 및 스케치 기반 재구성 (From Drawings & Sketches)
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| Floor-SP: A Graph-based Structural Point Cloud Representation for Floor Plan Auto-generation | ACM Transactions on Graphics 2020 | [Link](https://dl.acm.org/doi/10.1145/3386569.3392418) | 148 | [Link](https://github.com/woodfrog/floor-sp) |
-| Drawing2CAD: A Benchmark for Sketch-Based CAD | ICCV 2023 | [Link](https://arxiv.org/abs/2308.16733) | 21 | [Link](https://github.com/Drawing2CAD/Drawing2CAD) |
-| From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach | ArXiv 2024 | [Link](https://arxiv.org/abs/2412.11892) | 0 | [Link](https://2d-to-3d-cad.github.io/) |
+| Drawing2CAD: A Benchmark for Sketch-Based CAD | ICCV 2023 | [Link](https://arxiv.org/html/2508.18733v1) | 21 | [Link](https://github.com/lllssc/Drawing2CAD) |
+| From 2D CAD Drawings to 3D Parametric Models: A Vision-Language Approach | ArXiv 2024 | [Link](https://arxiv.org/abs/2412.11892) | 0 | [Link](https://manycore-research.github.io/CAD2Program/) |
 
 ---
 
@@ -101,17 +99,18 @@ CAD 모델이 생성되는 '과정' 또는 '순서'를 학습하여, 설계 의�
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
 | SketchGraphs: A Large-Scale Dataset for Modeling Relational Geometry in Computer-Aided Design | CVPR 2020 | [Link](https://arxiv.org/abs/2007.08506) | 162 | [Link](https://github.com/PrincetonLIPS/SketchGraphs) |
-| DeepCAD: A Deep Generative Network for Computer-Aided Design Models | ICCV 2021 | [Link](https://arxiv.org/abs/2104.05319) | 129 | [Link](https://github.com/shapen-gatech/DeepCAD) |
-| SkexGen: Autoregressive Generation of CAD Construction Sequences with Disentangled Codebooks | ECCV 2022 | [Link](https://arxiv.org/abs/2207.04632) | 52 | N/A |
-| Vitruvion: A Generative Model of Parametric CAD Sketches | SIGGRAPH Asia 2022 | [Link](https://arxiv.org/abs/2210.11909) | 47 | [Link](https://github.com/GARJ-Team/Vitruvion) |
-| Engineering Sketch Generation for Computer-Aided Design | ArXiv 2021 | [Link](https://arxiv.org/pdf/2104.09621) | 31 | [Link](https://github.com/dais-legacy/deep-line-art) |
+| DeepCAD: A Deep Generative Network for Computer-Aided Design Models | ICCV 2021 | [Link](https://arxiv.org/abs/2105.09492) | 129 | [Link](https://github.com/rundiwu/DeepCAD) |
+| SkexGen: Autoregressive Generation of CAD Construction Sequences with Disentangled Codebooks | ECCV 2022 | [Link](https://arxiv.org/abs/2207.04632) | 52 | [Link](https://samxuxiang.github.io/skexgen/) |
+| Vitruvion: A Generative Model of Parametric CAD Sketches | SIGGRAPH Asia 2022 | [Link](https://arxiv.org/abs/2109.14124) | 47 | [Link](https://github.com/PrincetonLIPS/vitruvion) |
+| Engineering Sketch Generation for Computer-Aided Design | ArXiv 2021 | [Link](https://arxiv.org/abs/2104.09621) | 31 | N/A |
+| Hierarchical Neural Coding for Controllable CAD Model Generation | ICML 2023 | [Link](https://arxiv.org/abs/2307.00149) | 49 | [Link](https://github.com/samxuxiang/hnc-cad) |
 
 #### 3.2. 직접 3D 모델 생성 (Direct 3D Model Generation)
 설계 과정을 건너뛰고, 조건(텍스트, 이미지 등)에 맞는 3D 모델 형상을 직접 생성합니다.
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| GenCAD-3D | ArXiv 2024 | [Link](https://arxiv.org/html/2409.15246v1) | 0 | [Link](https://gencad-3d.github.io/) |
+| GenCAD-3D | ArXiv 2024 | [Link](https://arxiv.org/abs/2509.15246) | 0 | [Link](https://gencad3d.github.io/) |
 
 ---
 
@@ -124,26 +123,24 @@ LLM을 CAD 설계 프로세스에 접목하여 다양한 작업을 자동화하�
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation | CVPR 2022 | [Link](https://arxiv.org/abs/2110.02883) | 390 | [Link](https://github.com/autodesk/clip-forge) |
-| Text2CAD: A Text-driven Platform for 3D CAD Model Generation and Manipulation | SIGGRAPH Asia 2022 | [Link](https://dl.acm.org/doi/10.1145/3550469.3555410) | 26 | N/A |
-| CADCrafter: A Bi-directional Transformer for Text-to-CAD | CVPR 2024 | [Link](https://arxiv.org/html/2404.04753v2) | 22 | [Link](https://zhaorunze.com/CADCrafter/) |
-| CAD-GPT: A Generative Foundational Model for Computer-Aided Design | ArXiv 2024 | [Link](https://arxiv.org/abs/2412.19663) | 0 | N/A |
+| CLIP-Forge: Towards Zero-Shot Text-to-Shape Generation | CVPR 2022 | [Link](https://arxiv.org/abs/2110.02624) | 390 | [Link](https://github.com/AutodeskAILab/Clip-Forge) |
+| Text2CAD: A Text-driven Platform for 3D CAD Model Generation and Manipulation | SIGGRAPH Asia 2022 | [Link](https://arxiv.org/abs/2409.17106) | 26 | [Link](https://github.com/SadilKhan/Text2CAD) |
+| CADCrafter: A Bi-directional Transformer for Text-to-CAD | CVPR 2024 | [Link](https://arxiv.org/abs/2504.04753) | 22 | N/A |
+| CAD-GPT: A Generative Foundational Model for Computer-Aided Design | ArXiv 2024 | [Link](https://arxiv.org/abs/2412.19663) | 0 | [Link](https://openiwin.github.io/CAD-GPT/) |
 
 #### 4.2. 대화형 설계 에이전트 (Conversational & Interactive Agents)
 대화형 인터페이스를 통해 사용자의 설계 작업을 돕거나, 사람과 협력하여 설계를 진행하는 에이전트를 개발합니다.
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| CADTalk: A Conversational Agent for CAD | ArXiv 2023 | [Link](https://arxiv.org/pdf/2311.16703) | 11 | N/A |
-| CADDesigner: An LLM-based Agent for Human-in-the-loop CAD | ArXiv 2024 | [Link](https://arxiv.org/html/2408.01031v2) | 2 | [Link](https://caddesigner.github.io/) |
+| CADTalk: A Conversational Agent for CAD | ArXiv 2023 | [Link](https://arxiv.org/abs/2311.16703) | 11 | [Link](https://enigma-li.github.io/CADTalk/) |
 
 #### 4.3. CAD 모델 분석 및 검토 (Analysis & Review)
 LLM을 이용해 설계된 CAD 모델의 문제점을 분석하거나, 설계 요구사항을 충족하는지 자동으로 검토합니다.
 
 | Papers | Venue | Links | Cited by | Github |
 | :--- | :--- | :--- | :--- | :--- |
-| CADReview: An LLM-based Review Agent for CAD Models | ArXiv 2024 | [Link](https://arxiv.org/pdf/2405.20304) | 4 | N/A |
-| CADAsm: A Dataset for Learning Assembly Programs from CAD Models | ArXiv 2023 | [Link](https://arxiv.org/abs/2308.06734) | 15 | [Link](https://github.com/Hymwg/CADAsm) |
+| CADReview: An LLM-based Review Agent for CAD Models | ArXiv 2024 | [Link](https://arxiv.org/abs/2505.22304) | 4 | [Link](https://cgl-pro.github.io/cadreview/) |
 
 ---
 
